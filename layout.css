@@ -11,7 +11,7 @@
   color:#ffffff;
 }
 .headerimage p{
-	height:30px;
+      height:30px;
       width:200px;
       background-image:url(./Images/spriteimg.svg);
       background-position:0px 45px;
@@ -35,11 +35,11 @@
 
     } 
   .aside{
-     background-color:#00008B;
+        background-color:#00008B;
 	 flex-grow:1;
     }
   .footer{
-	  background-color:	#1E90FF;
+	  background-color:#1E90FF;
 	  height:100px;
     }
    @media(min-width:320px) and (max-width:480px)
