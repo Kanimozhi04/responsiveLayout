@@ -4,11 +4,11 @@
  }
 .header,.main,.nav,.aside,.footer
 {
-	justify-content: center;
-    align-items: center;
-    display:flex;
-	font-size:20px;
-	color:#ffffff;
+   justify-content: center;
+   align-items: center;
+   display:flex;
+   font-size:20px;
+  color:#ffffff;
 }
 .headerimage p{
 	height:30px;
@@ -42,18 +42,18 @@
 	  background-color:	#1E90FF;
 	  height:100px;
     }
-	@media(min-width:320px) and (max-width:480px)
+   @media(min-width:320px) and (max-width:480px)
+    {
+	.header,.main,.aside
+	   {
+		flex:100%;
+	   }
+    }
+   @media(min-width:481px) and (max-width:768px)
+   {
+	.main,.aside
 	{
-		.header,.main,.aside
-		{
-			flex:100%;
-		}
-  	}
-	@media(min-width:481px) and (max-width:768px)
-	{
-		.main,.aside
-		{
-			flex:50%;
-		}
-  	}
+	    flex:50%;
+	}
+   }
  
